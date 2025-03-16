@@ -23,7 +23,6 @@
    padding-right: 30px; /* Espacio en blanco a la derecha */
 }
 
-
 .side {
    background:#eee;
    height:550px;
@@ -168,3 +167,24 @@ body {
  .valentines-day:hover .text {
    transform: translateY(-50px);
  }
+
+ .custom-link {
+  text-align: center; /* Centrar el texto */
+  margin-top: 660px; /* Espaciado hacia abajo */
+}
+
+.custom-link a {
+  display: inline-block;
+  background-color: #ff69b4; /* Color rosa fuerte */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 20px; /* Bordes redondeados */
+  text-decoration: none; /* Quitar subrayado */
+  font-size: 1.2em; /* Tamaño del texto */
+  font-weight: bold;
+  transition: background 0.3s ease; /* Efecto suave al pasar el mouse */
+}
+
+.custom-link a:hover {
+  background-color: #ff1493; /* Color más oscuro al pasar el mouse */
+}
